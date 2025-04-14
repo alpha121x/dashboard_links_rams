@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BMS APK Versions</title>
   <link rel="icon" href="images/logo_uu.png" type="image/png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <style>
-      body {
+    body {
       background: linear-gradient(to right, #eef2f3, #8e9eab);
       min-height: 100vh;
       padding-top: 30px;
@@ -16,7 +17,7 @@
     .card {
       margin-bottom: 20px;
       border: 1px solid #e0e0e0;
-        border-radius: 12px;
+      border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
       transition: 0.3s;
     }
@@ -39,6 +40,12 @@
     .version-item {
       margin-bottom: 10px;
     }
+
+    @media (max-width: 576px) {
+      .card-title {
+        font-size: 1.1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -51,7 +58,7 @@
 
   <div class="row">
     <!-- Version 1 -->
-    <div class="col-md-6">
+    <div class="col-12 col-md-6">
       <div class="card p-3">
         <h5 class="card-title"><i class="bi bi-phone"></i> BMS APK v1.0</h5>
         <div class="version-item">
@@ -62,7 +69,7 @@
     </div>
 
     <!-- Version 2 -->
-    <div class="col-md-6">
+    <div class="col-12 col-md-6">
       <div class="card p-3">
         <h5 class="card-title"><i class="bi bi-phone"></i> BMS APK v2.0</h5>
         <div class="version-item">
@@ -73,7 +80,7 @@
     </div>
 
     <!-- Version 3 -->
-    <div class="col-md-6">
+    <div class="col-12 col-md-6">
       <div class="card p-3">
         <h5 class="card-title"><i class="bi bi-phone"></i> BMS APK v3.0</h5>
         <div class="version-item">
@@ -82,17 +89,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Version 4 -->
-    <!-- <div class="col-md-6">
-      <div class="card p-3">
-        <h5 class="card-title"><i class="bi bi-phone"></i> BMS APK v4.0</h5>
-        <div class="version-item">
-          <span class="version-label">v4.0.1:</span>
-          <a href="#" target="_blank" class="text-decoration-none">Latest Release</a>
-        </div>
-      </div>
-    </div> -->
 
   </div>
 </div>
